@@ -36,7 +36,7 @@ for (var k in interfaces) {
 // Normal port in 3000, HTTPS in 8883
 var IP = addresses[0];
 var port = 8883;
-var http_port = 3000;
+var http_port = 3002;
 
 
 app.get("/", function(req, res) {
